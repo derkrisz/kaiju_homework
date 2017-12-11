@@ -11,4 +11,17 @@ public abstract class Kaiju {
         this.healthValue = healthValue;
         this.attackValue = attackValue;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealth() {
+        return healthValue;
+    }
+
+    public int getAttack() {
+        return attackValue;
+    }
+
 }
