@@ -39,11 +39,17 @@ public class KaijuTest {
     public void kumongaCanWalk() {
         assertEquals("*scurry scurry*", kumonga.walk());
     }
-    
+
     @Test
     public void MothraCanFly() {
         assertEquals("whoosh whoosh", mothra.walk());
 
+    }
+
+    @Test
+    public void KaijusCanRoar() {
+        assertEquals("Roooar!", kumonga.roar());
+        assertEquals("Roooar!", mothra.roar());
     }
 
 }

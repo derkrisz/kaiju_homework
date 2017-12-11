@@ -4,7 +4,6 @@
     <list default="true" id="859d4696-e0ab-4e1c-9b1d-2464b28f49e0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Kaiju/Kaiju.java" afterPath="$PROJECT_DIR$/src/main/java/Kaiju/Kaiju.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Kaiju/KaijuTest.java" afterPath="$PROJECT_DIR$/src/main/java/Kaiju/KaijuTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kaiju/Mothra.java" afterPath="$PROJECT_DIR$/src/main/java/Kaiju/Mothra.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="Kaiju.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju/Kaiju.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="341">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
@@ -35,6 +34,8 @@
                 <element signature="e#429#430#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +44,8 @@
       <file leaf-file-name="KaijuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju/KaijuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="545">
+              <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#843#844#0" expanded="true" />
@@ -404,9 +405,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Kaiju/Ikaijus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaiju/Kumonga.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kaiju/Mothra.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaiju/Kaiju.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaiju/KaijuTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Kaiju/Mothra.java" />
       </list>
     </option>
   </component>
@@ -499,7 +500,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KaijuTest.MothraCanFly">
+  <component name="RunManager" selected="JUnit.KaijuTest.KaijusCanRoar">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -534,6 +535,31 @@
       <option name="MAIN_CLASS_NAME" value="Kaiju.KaijuTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="KaijuTest.KaijusCanRoar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Kaiju.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="KaijuHomework_main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Kaiju" />
+      <option name="MAIN_CLASS_NAME" value="Kaiju.KaijuTest" />
+      <option name="METHOD_NAME" value="KaijusCanRoar" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -680,18 +706,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.KaijuTest.hasName" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.KaijuTest.kumongaCanWalk" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.KaijuTest.MothraCanFly" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KaijuTest.KaijusCanRoar" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KaijuTest.MothraCanFly" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest.kumongaCanWalk" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.KaijuTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.KaijuTest.hasName" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KaijuTest.KaijusCanRoar" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest.MothraCanFly" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KaijuTest.kumongaCanWalk" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KaijuTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KaijuTest.hasName" />
       </list>
     </recent_temporary>
   </component>
@@ -714,6 +742,9 @@
   <component name="TestHistory">
     <history-entry file="KaijuTest - 2017.12.11 at 18h 23m 19s.xml">
       <configuration name="KaijuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest_KaijusCanRoar - 2017.12.11 at 18h 42m 34s.xml">
+      <configuration name="KaijuTest.KaijusCanRoar" configurationId="JUnit" />
     </history-entry>
     <history-entry file="KaijuTest_MothraCanFly - 2017.12.11 at 18h 39m 06s.xml">
       <configuration name="KaijuTest.MothraCanFly" configurationId="JUnit" />
@@ -800,21 +831,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju/Kaiju.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju/Ikaijus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -857,10 +873,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju/Kaiju.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Kaiju/KaijuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        <state relative-caret-position="545">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#843#844#0" expanded="true" />
