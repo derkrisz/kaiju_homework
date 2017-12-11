@@ -1,6 +1,6 @@
 package Vehicle;
 
-public class Vehicle {
+public abstract class Vehicle {
 
     private String type;
     private int healthValue;
