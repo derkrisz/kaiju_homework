@@ -1,19 +1,24 @@
 package Kaiju;
+import Vehicle.Aircraft;
+import Vehicle.Tank;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 public class KaijuTest {
 
     Kumonga kumonga;
     Mothra mothra;
+    Tank tank;
+    Aircraft aircraft;
 
     @Before
     public void before() {
         kumonga = new Kumonga("Kumonga", 1000, 50);
         mothra = new Mothra("Mothra", 900, 40);
+        tank = new Tank("K2 Black Panther", 500);
+        aircraft = new Aircraft("F-22 Raptor", 200);
 
     }
 
@@ -50,6 +55,23 @@ public class KaijuTest {
     public void KaijusCanRoar() {
         assertEquals("Roooar!", kumonga.roar());
         assertEquals("Roooar!", mothra.roar());
+    }
+
+    @Test
+    public void kumongaCanAttack() {
+        kumonga.attack(tank);
+        kumonga.attack(aircraft);
+        assertEquals(450, tank.getHealthValue());
+        assertEquals(150, aircraft.getHealthValue());
+
+    }
+
+    @Test
+    public void mothraCanAttack() {
+        mothra.attack(tank);
+        mothra.attack(aircraft);
+        assertEquals(460, tank.getHealthValue());
+        assertEquals(160, aircraft.getHealthValue());
     }
 
 }

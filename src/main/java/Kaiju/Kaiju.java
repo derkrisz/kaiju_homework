@@ -1,10 +1,12 @@
 package Kaiju;
 
+import Vehicle.Vehicle;
+
 public abstract class Kaiju {
 
     private String name;
-    private int healthValue;
-    private int attackValue;
+    protected int healthValue;
+    protected int attackValue;
 
     public Kaiju(String name, int healthValue, int attackValue) {
         this.name = name;
@@ -27,4 +29,5 @@ public abstract class Kaiju {
     public String roar() {
         return "Roooar!";
     }
+
 }
