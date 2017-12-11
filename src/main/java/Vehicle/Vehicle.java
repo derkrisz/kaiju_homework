@@ -14,6 +14,10 @@ public class Vehicle {
         return type;
     }
 
+    public void setHealthValue(int healthValue) {
+        this.healthValue = healthValue;
+    }
+
     public int getHealthValue() {
         return healthValue;
     }

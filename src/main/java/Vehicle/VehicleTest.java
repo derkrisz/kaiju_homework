@@ -27,4 +27,12 @@ public class VehicleTest {
         assertEquals(500, tank.getHealthValue());
         assertEquals(200, aircraft.getHealthValue());
     }
+
+    @Test
+    public void canSetHealthValue() {
+        tank.setHealthValue(400);
+        aircraft.setHealthValue(100);
+        assertEquals(400, tank.getHealthValue());
+        assertEquals(100, aircraft.getHealthValue());
+    }
 }
