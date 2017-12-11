@@ -35,4 +35,9 @@ public class KaijuTest {
         assertEquals(40, mothra.getAttack());
     }
 
+    @Test
+    public void kumongaCanWalk(){
+        assertEquals("*scurry scurry*", kumonga.walk());
+    }
+
 }
