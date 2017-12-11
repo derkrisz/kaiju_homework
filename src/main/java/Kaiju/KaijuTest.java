@@ -34,5 +34,5 @@ public class KaijuTest {
         assertEquals(50, kumonga.getAttack());
         assertEquals(40, mothra.getAttack());
     }
-    
+
 }
