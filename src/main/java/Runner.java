@@ -20,6 +20,12 @@ public class Runner {
         System.out.println("Damage inflicted");
         System.out.println(tank.getType() + "'s new health is " +tank.getHealthValue());
 
+        System.out.println(aircraft.getType() + "'s health is " + aircraft.getHealthValue());
+        System.out.println(kumonga.getName() + " attacks!!");
+        kumonga.attack(aircraft);
+        System.out.println("Damage successful");
+        System.out.println(aircraft.getType() + "'s new health is " +aircraft.getHealthValue());
+
     }
 
 
